@@ -1,0 +1,114 @@
+.logo{
+    height: 100px;
+    width: 100px;
+}
+ 
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu ul li{
+    font-size: 25px;
+}
+.midname{
+    text-align: center;
+}
+ .products{
+    width: 25%;
+   
+    
+    
+ }
+ .productlist{
+    display: flex;
+    gap: 20px;
+    
+
+ }
+ .products span{
+    font-size: 20px;
+    
+    
+ }
+
+ .products img{
+    width: 100%;
+    
+ }
+
+ .button {
+    background-color: black;
+   color: white;
+    padding:   10px 20px 10px 20px;
+    font-size: 15;
+    border-radius: 5px;
+ }
+ .buttoncontainer{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+ }
+
+
+ 
+ .footer p{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+
+
+    @media screen and (max-width :650px)
+    {
+        .header {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+    }
+    @media screen and (max-width :520px)
+    {
+        .menu ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .products {
+            width: 100%;  /* Set width to 100% for a single column layout */
+        }
+    
+        .productlist {
+            flex-direction: column;  /* Arrange products in a single column */
+            align-items: center;     /* Center align products */
+        }
+    
+        .products span {
+            font-size: 18px;  /* Adjust font size for better visibility on smaller screens */
+        }
+    
+        .buttoncontainer {
+            text-align: center;
+            margin: 10px 0;  /* Adjust margin for better spacing on smaller screens */
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+   
+
+
+ 
